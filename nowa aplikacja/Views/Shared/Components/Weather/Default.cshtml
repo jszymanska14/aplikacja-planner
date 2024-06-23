@@ -1,0 +1,12 @@
+﻿@model WeatherApi.Models.WeatherData
+
+<div>
+    <h3>Aktualna Pogoda</h3>
+    <form method="get" asp-action="Index">
+        <input type="text" name="location" value="@Model.Location" placeholder="Wpisz lokalizację" />
+        <button type="submit">Pokaż pogodę</button>
+    </form>
+    <p>Location: @Model.Location</p>
+    <p>Temperature: @Model.Temperature °C</p>
+    <p>Condition: @Model.Condition</p>
+</div>

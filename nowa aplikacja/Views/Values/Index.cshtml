@@ -1,0 +1,50 @@
+﻿@model IEnumerable<nowa_aplikacja.Models.TaskModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="display-4">Lista zadań</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Dodaj zadanie</a>
+</p>
+
+<div id="weather-widget">
+    @await Component.InvokeAsync("Weather", new { location = ViewBag.Location })
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Done)
+            </th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        @foreach (var task in Model)
+        {
+            <tr>
+               
+                <td>@task.Name</td>
+                <td>@task.Description</td>
+                <td>@(task.Done ? "Zrobione" : "Niezrobione")</td>
+                <td>
+                    <a class="btn btn-info" asp-action="Edit" asp-route-id="@task.TaskId">Edytuj</a>
+                    <a class="btn btn-danger" asp-action="Details" asp-route-id="@task.TaskId">Szczegóły</a>
+                    <a class="btn btn-info" asp-action="Done" asp-route-id="@task.TaskId">Gotowe</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@task.TaskId">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

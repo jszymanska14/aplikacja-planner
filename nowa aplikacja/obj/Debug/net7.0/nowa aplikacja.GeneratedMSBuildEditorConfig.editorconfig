@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = nowa_aplikacja
+build_property.RootNamespace = nowa_aplikacja
+build_property.ProjectDir = C:\Users\48669\Documents\GitHub\aplikacja-C- 2\aplikacja-planner\nowa aplikacja\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\48669\Documents\GitHub\aplikacja-C- 2\aplikacja-planner\nowa aplikacja
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/48669/Documents/GitHub/aplikacja-C- 2/aplikacja-planner/nowa aplikacja/Views/Shared/Components/Weather/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcV2VhdGhlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48669/Documents/GitHub/aplikacja-C- 2/aplikacja-planner/nowa aplikacja/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48669/Documents/GitHub/aplikacja-C- 2/aplikacja-planner/nowa aplikacja/Views/Values/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsdWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48669/Documents/GitHub/aplikacja-C- 2/aplikacja-planner/nowa aplikacja/Views/Values/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsdWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48669/Documents/GitHub/aplikacja-C- 2/aplikacja-planner/nowa aplikacja/Views/Values/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsdWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48669/Documents/GitHub/aplikacja-C- 2/aplikacja-planner/nowa aplikacja/Views/Values/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsdWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48669/Documents/GitHub/aplikacja-C- 2/aplikacja-planner/nowa aplikacja/Views/Values/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsdWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48669/Documents/GitHub/aplikacja-C- 2/aplikacja-planner/nowa aplikacja/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48669/Documents/GitHub/aplikacja-C- 2/aplikacja-planner/nowa aplikacja/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/48669/Documents/GitHub/aplikacja-C- 2/aplikacja-planner/nowa aplikacja/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-dw8ky4bvvk
